@@ -16,8 +16,11 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What color stripes are on a 100 Ohm resistor?**
  
+A 100 ohm resistor has blue and red stripes on it. 
+ 
 **b. What do you have to do to light your LED?**
 
+b.	The LED went on by itself when I plugged in the breadboard.
 
 ## Part C. Blink a LED using Arduino
 
@@ -25,14 +28,23 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+To make the LED blink, we did not have to change the original version of the code. 
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+
+To change the rate of blinking, we had to change the parameters of the delay() function. By making the parameter lower, we increase the rate of the blinking.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
  
+A resistor would control the flow of electricity and the circuit and prevent it from getting overloaded.
+ 
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
+Once the delay parameter is below or equal to 15, I can no longer perceive that the LED is flashing. 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+[Blink Your Own Way](https://github.com/byellin/IDD-Fa18-Lab1/blob/master/1e.ino).
 
 ### 2. Blink your LED
 
