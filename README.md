@@ -93,7 +93,7 @@ Information is stored in the device by either sending or not sending current thr
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+Electricity flows from the laptop into the Arduino. Then it flows down the rail on the right and through the resistor. Electricity then passes through the calculator and back into the breadboard. 
 
 ### 3. Build your light!
 
